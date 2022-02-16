@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container  } from 'react-bootstrap';
-import { BrowserRouter , Routes, Route,   } from 'react-router-dom'
+import { BrowserRouter , Routes, Route } from 'react-router-dom'
 
 // Components
 import Header from './components/Header';
@@ -14,6 +14,8 @@ import ProductScreenDetail  from './screens/ProductScreenDetail';
 // import ProductSummary  from './screens/ProductSummary';
 
 const App = () => {
+
+
   return (
     <BrowserRouter>
      <Header/>
@@ -24,7 +26,7 @@ const App = () => {
               <Route path='about' element={<About/>} />
             
               <Route path="product" element={<ProductScreenDetail />}>
-                  <Route path=":productId" element={<ProductScreen />} />
+                  <Route path=":id" element={<ProductScreen />} />
                   {/* <Route path="sent" element={<ProductSummary />} /> */}
               </Route>
           </Routes>
