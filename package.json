@@ -1,0 +1,15 @@
+{
+  "name": "eshop",
+  "version": "1.0.0",
+  "description": "ESHOP APP",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server"
+  },
+  "author": "Ryu",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
+ 
