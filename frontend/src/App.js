@@ -13,6 +13,7 @@ import ProductScreen from "./screens/ProductScreen";
 import ProductScreenDetail from "./screens/ProductScreenDetail";
 import CartScreen from "./screens/CartScreen";
 import LoginScreen from "./screens/LoginScreen";
+import RegisterScreen from "./screens/RegisterScreen";
 
 // import ProductSummary  from './screens/ProductSummary';
 
@@ -26,6 +27,7 @@ const App = () => {
             <Route index element={<HomeScreen />} />
             <Route path='about' element={<About />} />
             <Route path='login' element={<LoginScreen />} />
+            <Route path='register' element={<RegisterScreen />} />
 
             <Route path='cart'>
               <Route path=':id' element={<CartScreen />} />
