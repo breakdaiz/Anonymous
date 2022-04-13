@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const ProductSummary = () => {
   return (
-    <h1>Product Summary</h1>
-  )
-}
+    <div>
+      <h1>Product Summary</h1>
+    </div>
+  );
+};
 
-export default ProductSummary
+export default ProductSummary;
